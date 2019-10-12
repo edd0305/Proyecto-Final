@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tags -->
+    <!-- Title of the document -->
+    <title>Proyecto Analisis y Diseño</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="" />
+    <!-- /meta tags -->
+
+    <!-- Section Events css -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- /Section Events css -->
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- custom css -->
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="all" />
+
+</head>
+
+<body>
+    <!-- banner -->
+    <div class="banner">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="index.html">Tecnologia en sistemas</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+
+            </nav>
+        </header>
+
+        <div id="container">
+            <div id="message">
+            </div>
+        </div>
+    </div>
+    <!-- /banner -->
+
+    <!-- team starts here -->
+    <div class="container content text-center py-5" id="section5">
+        <header class="w3-heading py-lg-5 pb-md-5 pb-4">
+            <h3>TRABAJO REALIZADO</h3>
+            <p style="font-family:cursive; font-size: 18px">Aca podras seleccionar que ver del proyecto</p>
+        </header>
+        <!-- //end heading -->
+
+        <div class="row">
+            <div class="col-md-4 col-sm-6">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-fluid" src="images/member1.png" alt="">
+                    </div>
+                    <div class="team-desc">
+                        <h4>Uso de class, id, querySelector, addEventListener</h4>
+                        <span>En esta seccion se podra ver como cambiar el color del texto, eventos del mouse e input</span>
+                        <ul class="d-flex justify-content-center py-3 social-icons">
+                            <li>
+                                <a href="#section1">
+                                    <button class="btn-small">Vamos!!</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-fluid" src="images/member2.jpg" alt="">
+                    </div>
+                    <div class="team-desc">
+                        <h4>API con imagenes</h4>
+                        <span>En esta seccion podras ver los personajes de los Simpsons, sus nombres y una breve descripcion del personaje</span>
+                        <ul class="d-flex justify-content-center py-3 social-icons">
+                            <li>
+                                <a href="#section2">
+                                    <button class="btn-small">Vamos!!</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 offset-sm-3 offset-md-0">
+                <div class="team-members">
+                    <div class="team-avatar">
+                        <img class="img-fluid" src="images/member3.jpg" alt="">
+                    </div>
+                    <div class="team-desc">
+                        <h4>API con arreglos</h4>
+                        <span>En esta seccion mostrare un listado de los personajes de StarWars</span>
+                        <ul class="d-flex justify-content-center py-3 social-icons">
+                            <li>
+                                <a href="#section3">
+                                    <button class="btn-small">Vamos!!</button>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Events Section -->
+
+    <section class="testimonials content-section" id="section1">
+        <div class="container">
+            <header class="w3-heading py-lg-5 pt-5 text-center">
+                <h3 class="text-white">Eventos</h3>
+                <p class="diff" style="font-family:cursive; font-size: 18px">En cada ventana podras ver como se utilizan </p>
+            </header>
+
+            <div class="row text-center">
+
+                <div class="col-md-8 offset-md-2">
+                    <div class="client-testimonials owl-carousel owl-theme">
+
+                        <div class="item">
+
+                            <p class="speech cambio" style="font-family:cursive; font-size: 18px"> Con el uso de getElementsByClassName, mostrare como cambio este texto de color!!! </p>
+                            <div class="client-info">
+                                <a onclick="changeColor('blue');"><img src="images/member1.jpg" alt="" /></a>
+                                <h4>Presiona la imagen</h4>
+                                <span>Luego pasa a la siguiente</span>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <p class="speech" id="cambioMouse" style="font-family:cursive; font-size: 18px">Con el uso de getElementById y addEventListener, si pasamos el mouse sobre el texto y lo retiramos veras el cambio de color!!!</p>
+                            <div class="client-info">
+                                <img id="cambioMouse" src="images/member5.jpg" alt="" />
+                                <h4>Luego pasa a la siguiente</h4>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="row">
+                                <form class="col s12">
+                                    <div class="row">
+                                        <div class="input-field col s6">
+                                            <i class="material-icons prefix">account_circle</i>
+                                            <input id="icon_prefix" type="text" class="validate" placeholder="Escribe algo!!" style="font-family:cursive; font-size: 18px">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <p id="values" class="speech" style="font-family:cursive; font-size: 18px">Con el uso de querySelector, reemplazare este texto por le que tu escribas arriba!!!!</p>
+                            <div class="client-info">
+                                <img src="images/member4.jpg" alt="" />
+                                <h4>
+                                    <a href="#section2">
+                                        <button class="btn-small">API Simpsons</button>
+                                    </a>
+                                </h4>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- API IMG Section -->
+
+    <section id="section2">
+        <div class="container content text-center py-5" id="section5">
+            <header class="w3-heading py-lg-5 pb-md-5 pb-4">
+                <h3>API CON IMAGENES</h3>
+            </header>
+        </div>
+
+        <div class="row">
+
+            <div class="col-md-4 col-sm-6">
+                <div class="team-members">
+                    <div id="img" class="team-avatar">
+
+                    </div>
+
+                    <div class="team-desc">
+                        <h4 id="nombre"></h4>
+                        <span id="descripcion"></span>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <button onclick="obtenerPersonajes()" class="btn-small">Cambiar Personaje</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="team-members">
+                    <div id="img1" class="team-avatar">
+
+                    </div>
+
+                    <div class="team-desc">
+                        <h4 id="nombre1"></h4>
+                        <span id="descripcion1"></span>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <button onclick="obtenerPersonajes1()" class="btn-small">Cambiar Personaje</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6">
+                <div class="team-members">
+                    <div id="img2" class="team-avatar">
+
+                    </div>
+
+                    <div class="team-desc">
+                        <h4 id="nombre2"></h4>
+                        <span id="descripcion2"></span>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <button onclick="obtenerPersonajes2()" class="btn-small">Cambiar Personaje</button>
+                </div>
+            </div>
+    </section>
+
+    <!-- API ARRAY Section -->
+
+    <section id="section3">
+        <div class="container">
+
+            <div class="container content text-center py-5" id="section5">
+                <header class="w3-heading py-lg-5 pb-md-5 pb-4">
+                    <h3>API CON ARREGLO</h3>
+                </header>
+            </div>
+
+            <div id="informacion">
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- Footer -->
+    <footer id="footer">
+
+        <div class="w3l-copynote py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <p> &copy; 2019. University of Caldas. All rights reserved | Design by
+                            <a href="#">EDD2601</a>
+                        </p>
+                    </div>
+                    <!-- /.col-md-12 -->
+
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.copynote -->
+
+        <a href="#" id="toTop" style="display: block;">
+            <span id="toTopHover" style="opacity: 1;"> </span>
+        </a>
+    </footer>
+    <!-- /.footer -->
+
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/main.js"></script>
+    <!-- stats -->
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.js"></script>
+
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.js"></script>
+
+    <!-- start-smooth-scrolling -->
+    <script src="js/move-top.js"></script>
+    <script src="js/easing.js"></script>
+
+    <!-- jQuery-Photo-filter-lightbox-Gallery-plugin -->
+    <script src="js/jquery-1.7.2.js"></script>
+    <script src="js/jquery.quicksand.js"></script>
+    <script src="js/script.js"></script>
+    <!-- custom js file -->
+    <script src="js/universe.js"></script>
+    <!-- /custom js file -->
+
+</body>
+
+</html>
